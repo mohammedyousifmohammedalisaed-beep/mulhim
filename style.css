@@ -1,0 +1,182 @@
+/* body {
+	font-family: "Amiri Quran", serif;
+	font-weight: 400;
+	font-style: normal;
+} */
+/* * {
+	/* box-sizing: border-box; */
+
+.header {
+	font-family: "Reem Kufi Fun", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 850%;
+	text-align: center;
+	color: white;
+	background-color: darkcyan;
+	border-radius: 22px;
+	margin-bottom: 30px;
+	display: block;
+	animation: smoothShow 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes smoothShow {
+	0% {
+		opacity: 0;
+		transform: translateY(25px) scale(0.95);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+}
+.mp1 {
+	font-family: "Amiri Quran", serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 210%;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.mp1 span {
+	color: darkcyan;
+}
+.mainvideo {
+	width: 100%;
+}
+.conteiner {
+	margin: 1px auto;
+}
+.mainh {
+	font-family: "Amiri Quran", serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	font-size: 180%;
+}
+.mainh span {
+	color: darkcyan;
+	text-decoration: underline;
+}
+.mtable tr td img {
+	width: 100%;
+}
+.mtable {
+	font-family: "Reem Kufi Fun", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+}
+.mtable td {
+	padding: 5px;
+	border: 1.9px solid #e2e8f0;
+	border-radius: 7px;
+}
+td img {
+	width: fit-content;
+	border-radius: 7px;
+}
+.texttd {
+	width: 50%;
+	text-align: center;
+	transition: 1sec;
+}
+.texttd span {
+	color: darkcyan;
+}
+.contacth {
+	color: darkcyan;
+	text-align: center;
+	font-family: "Amiri Quran", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+}
+form h2 {
+	text-align: center;
+	font-family: "Reem Kufi Fun", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+}
+input {
+	display: block;
+	width: 70%;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1.9px solid #e2e8f0;
+}
+form .sub {
+	background-color: darkcyan;
+}
+form {
+	background-color: #eeee;
+	padding: 15px;
+	border-radius: 60px 60px 0 0;
+}
+.footer {
+	font-family: "Reem Kufi Fun", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+	text-align: center;
+	margin: 0px;
+	padding: 45px;
+}
+.footer h2 {
+	margin: 0;
+}
+body {
+	margin-bottom: 0px;
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.mtable tr {
+	opacity: 0;
+	animation: fadeInUp 0.8s linear both;
+	view-timeline-name: --viewRow;
+	view-timeline-axis: block;
+	animation-timeline: --viewRow;
+	animation-range: entry 10% contain 40%;
+}
+.mtable tr:nth-child(1) {
+	animation-delay: 0.2s;
+}
+.mtable tr:nth-child(2) {
+	animation-delay: 0.4s;
+}
+.mtable tr:nth-child(3) {
+	animation-delay: 0.8s;
+}
+.mtable tr:nth-child(4) {
+	animation-delay: 1s;
+}
+.mtable tr:nth-child(5) {
+	animation-delay: 1.2s;
+}
+.mtable tr:nth-child(6) {
+	animation-delay: 1.4s;
+}
+.mtable tr:nth-child(7) {
+	animation-delay: 1.6s;
+}
+.mtable tr:nth-child(8) {
+	animation-delay: 1.8s;
+}
+.mtable tr:nth-child(9) {
+	animation-delay: 2s;
+}
+.mtable tr:nth-child(10) {
+	animation-delay: 2.2s;
+}
